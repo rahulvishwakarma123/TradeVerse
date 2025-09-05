@@ -1,8 +1,13 @@
 import React from 'react'
+import Hero from './Hero'
+import Team from './Team'
 
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <div className='px-30'>
+      <Hero/>
+      <Team/>
+    </div>
   )
 }
 
